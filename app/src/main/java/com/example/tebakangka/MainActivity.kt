@@ -11,8 +11,9 @@ import kotlin.random.Random
 class MainActivity : AppCompatActivity() {
 
     // Variabel Penyimpan Data Game
-
-
+    private var targetNumber = 0
+    private var score = 100
+    private var isGameOver = false
     // Deklarasi Komponen Tampilan
     private lateinit var tvScore: TextView
     private lateinit var tvFeedback: TextView
